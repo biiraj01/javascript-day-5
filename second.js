@@ -1,8 +1,5 @@
-let para = document.querySelectorAll(".content");
-para.classList("newClass");
+let para = document.querySelector(".content");
+para.classList.add("newClass");
 
-let newClass = document.querySelector(".newClass");
-newClass.innerText = " from Kathmandu";
-let el = document.createElement("newClass");
-para.append("el");
+
 
